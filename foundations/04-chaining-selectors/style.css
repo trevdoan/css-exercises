@@ -1,0 +1,13 @@
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* no space in between to indicate chaining selectors. used for specific instances, where as with grouping selectors you can't alter the instances of the avatar width for e.g 
+
+They will be already pre-set parameters */
